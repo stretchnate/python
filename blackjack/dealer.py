@@ -1,4 +1,3 @@
-# import math
 import random
 
 deck = [
@@ -13,7 +12,7 @@ def deal(person):
 
     while card in dealt:
         card = random.choice(deck[0]) + '[' + random.choice(deck[1])+']'
-        
+
     dealt.append(card)
     person.append(card)
 
